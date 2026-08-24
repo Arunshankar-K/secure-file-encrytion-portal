@@ -1,0 +1,512 @@
+2026-08-23 20:38:10,098 INFO SECURITY_LOG_TEST
+2026-08-23 20:41:46,921 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 20:41:46,922 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 20:42:08,010 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 20:42:08,010 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 20:44:41,609 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 20:44:41,610 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 20:45:11,763 INFO 127.0.0.1 - - [23/Aug/2026 20:45:11] "GET / HTTP/1.1" 200 -
+2026-08-23 20:47:06,098 INFO 127.0.0.1 - - [23/Aug/2026 20:47:06] "POST /encrypt HTTP/1.1" 200 -
+2026-08-23 20:47:18,220 INFO 127.0.0.1 - - [23/Aug/2026 20:47:18] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 20:55:44,831 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 20:55:44,832 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 20:55:50,867 INFO 127.0.0.1 - - [23/Aug/2026 20:55:50] "GET / HTTP/1.1" 200 -
+2026-08-23 20:55:57,029 INFO 127.0.0.1 - - [23/Aug/2026 20:55:57] "GET / HTTP/1.1" 200 -
+2026-08-23 20:56:13,007 INFO FILE_ENCRYPTED user_id=1 file_id=e79f3bfe-91cf-4479-a8af-b7492b5385f4
+2026-08-23 20:56:13,056 INFO 127.0.0.1 - - [23/Aug/2026 20:56:13] "POST /encrypt HTTP/1.1" 200 -
+2026-08-23 20:56:28,055 INFO FILE_DECRYPTED user_id=1 file_id=e79f3bfe-91cf-4479-a8af-b7492b5385f4
+2026-08-23 20:56:28,060 INFO 127.0.0.1 - - [23/Aug/2026 20:56:28] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 21:08:58,339 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 21:08:58,341 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 21:09:02,862 INFO 127.0.0.1 - - [23/Aug/2026 21:09:02] "GET / HTTP/1.1" 200 -
+2026-08-23 21:09:08,257 INFO 127.0.0.1 - - [23/Aug/2026 21:09:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:09:08,291 INFO 127.0.0.1 - - [23/Aug/2026 21:09:08] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:09:26,475 WARNING LOGIN_FAILED username=arun
+2026-08-23 21:09:26,476 INFO 127.0.0.1 - - [23/Aug/2026 21:09:26] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-08-23 21:11:24,266 INFO 127.0.0.1 - - [23/Aug/2026 21:11:24] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:11:34,494 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 21:11:34,496 INFO 127.0.0.1 - - [23/Aug/2026 21:11:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:11:34,503 INFO 127.0.0.1 - - [23/Aug/2026 21:11:34] "GET / HTTP/1.1" 200 -
+2026-08-23 21:29:21,451 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 21:29:21,452 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 21:29:28,040 INFO 127.0.0.1 - - [23/Aug/2026 21:29:28] "GET / HTTP/1.1" 200 -
+2026-08-23 21:29:29,865 INFO 127.0.0.1 - - [23/Aug/2026 21:29:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:29:29,887 INFO 127.0.0.1 - - [23/Aug/2026 21:29:29] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:30:04,159 WARNING LOGIN_FAILED username=arun
+2026-08-23 21:30:04,160 INFO 127.0.0.1 - - [23/Aug/2026 21:30:04] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-08-23 21:30:07,085 INFO 127.0.0.1 - - [23/Aug/2026 21:30:07] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:30:16,406 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 21:30:16,407 INFO 127.0.0.1 - - [23/Aug/2026 21:30:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:30:16,412 INFO 127.0.0.1 - - [23/Aug/2026 21:30:16] "GET / HTTP/1.1" 200 -
+2026-08-23 21:30:31,274 INFO FILE_ENCRYPTED user_id=1 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 21:30:31,287 INFO 127.0.0.1 - - [23/Aug/2026 21:30:31] "POST /encrypt HTTP/1.1" 200 -
+2026-08-23 21:30:36,827 INFO 127.0.0.1 - - [23/Aug/2026 21:30:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:30:36,835 INFO 127.0.0.1 - - [23/Aug/2026 21:30:36] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:30:52,208 INFO LOGIN_SUCCESS user_id=2
+2026-08-23 21:30:52,208 INFO 127.0.0.1 - - [23/Aug/2026 21:30:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:30:52,214 INFO 127.0.0.1 - - [23/Aug/2026 21:30:52] "GET / HTTP/1.1" 200 -
+2026-08-23 21:31:07,720 ERROR Exception on /decrypt [POST]
+Traceback (most recent call last):
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/app.py", line 259, in decrypt
+    if record["user_id"] != session["user_id"]:
+       ~~~~~~^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-08-23 21:31:07,729 INFO 127.0.0.1 - - [23/Aug/2026 21:31:07] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2026-08-23 21:42:07,594 INFO 127.0.0.1 - - [23/Aug/2026 21:42:07] "GET / HTTP/1.1" 200 -
+2026-08-23 21:43:07,101 ERROR Exception on /decrypt [POST]
+Traceback (most recent call last):
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/venv/lib/python3.12/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/arunshankar/secure-file-encryption-portal/app.py", line 259, in decrypt
+    if record is None:
+       ^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2026-08-23 21:43:07,109 INFO 127.0.0.1 - - [23/Aug/2026 21:43:07] "[35m[1mPOST /decrypt HTTP/1.1[0m" 500 -
+2026-08-23 21:43:35,188 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 21:43:35,189 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 21:43:55,722 INFO 127.0.0.1 - - [23/Aug/2026 21:43:55] "GET / HTTP/1.1" 200 -
+2026-08-23 21:43:56,692 INFO 127.0.0.1 - - [23/Aug/2026 21:43:56] "GET / HTTP/1.1" 200 -
+2026-08-23 21:44:03,909 WARNING ACCESS_DENIED user_id=2 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 21:44:03,916 INFO 127.0.0.1 - - [23/Aug/2026 21:44:03] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 21:48:45,608 INFO 127.0.0.1 - - [23/Aug/2026 21:48:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:48:45,640 INFO 127.0.0.1 - - [23/Aug/2026 21:48:45] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:48:56,318 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 21:48:56,319 INFO 127.0.0.1 - - [23/Aug/2026 21:48:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:48:56,325 INFO 127.0.0.1 - - [23/Aug/2026 21:48:56] "GET / HTTP/1.1" 200 -
+2026-08-23 21:52:51,622 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 21:52:51,624 INFO 127.0.0.1 - - [23/Aug/2026 21:52:51] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 21:53:23,598 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 21:53:23,598 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 21:53:29,497 INFO 127.0.0.1 - - [23/Aug/2026 21:53:29] "GET / HTTP/1.1" 200 -
+2026-08-23 21:53:30,739 INFO 127.0.0.1 - - [23/Aug/2026 21:53:30] "GET / HTTP/1.1" 200 -
+2026-08-23 21:53:32,024 INFO 127.0.0.1 - - [23/Aug/2026 21:53:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:53:32,035 INFO 127.0.0.1 - - [23/Aug/2026 21:53:32] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:53:42,471 WARNING LOGIN_FAILED username=arun
+2026-08-23 21:53:42,472 INFO 127.0.0.1 - - [23/Aug/2026 21:53:42] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-08-23 21:53:47,622 INFO 127.0.0.1 - - [23/Aug/2026 21:53:47] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:53:55,795 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 21:53:55,795 INFO 127.0.0.1 - - [23/Aug/2026 21:53:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:53:55,802 INFO 127.0.0.1 - - [23/Aug/2026 21:53:55] "GET / HTTP/1.1" 200 -
+2026-08-23 21:54:11,085 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 21:54:11,085 INFO 127.0.0.1 - - [23/Aug/2026 21:54:11] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 21:59:31,610 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 21:59:31,611 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 21:59:37,997 INFO 127.0.0.1 - - [23/Aug/2026 21:59:37] "GET / HTTP/1.1" 200 -
+2026-08-23 21:59:39,610 INFO 127.0.0.1 - - [23/Aug/2026 21:59:39] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 21:59:39,621 INFO 127.0.0.1 - - [23/Aug/2026 21:59:39] "GET /login HTTP/1.1" 200 -
+2026-08-23 21:59:50,157 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 21:59:50,158 INFO 127.0.0.1 - - [23/Aug/2026 21:59:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 21:59:50,162 INFO 127.0.0.1 - - [23/Aug/2026 21:59:50] "GET / HTTP/1.1" 200 -
+2026-08-23 22:00:05,358 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 22:00:05,359 INFO 127.0.0.1 - - [23/Aug/2026 22:00:05] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 22:10:51,748 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 22:10:51,748 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 22:10:59,061 INFO 127.0.0.1 - - [23/Aug/2026 22:10:59] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:00,328 INFO 127.0.0.1 - - [23/Aug/2026 22:11:00] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:00,877 INFO 127.0.0.1 - - [23/Aug/2026 22:11:00] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,041 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,206 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,367 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,524 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,690 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:01,858 INFO 127.0.0.1 - - [23/Aug/2026 22:11:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:02,022 INFO 127.0.0.1 - - [23/Aug/2026 22:11:02] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:02,262 INFO 127.0.0.1 - - [23/Aug/2026 22:11:02] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:11:12,773 INFO 127.0.0.1 - - [23/Aug/2026 22:11:12] "GET / HTTP/1.1" 200 -
+2026-08-23 22:11:12,852 INFO 127.0.0.1 - - [23/Aug/2026 22:11:12] "GET / HTTP/1.1" 200 -
+2026-08-23 22:11:12,984 INFO 127.0.0.1 - - [23/Aug/2026 22:11:12] "GET / HTTP/1.1" 200 -
+2026-08-23 22:11:13,137 INFO 127.0.0.1 - - [23/Aug/2026 22:11:13] "GET / HTTP/1.1" 200 -
+2026-08-23 22:11:13,280 INFO 127.0.0.1 - - [23/Aug/2026 22:11:13] "GET / HTTP/1.1" 200 -
+2026-08-23 22:11:13,518 INFO 127.0.0.1 - - [23/Aug/2026 22:11:13] "GET / HTTP/1.1" 200 -
+2026-08-23 22:12:15,311 INFO FILE_ENCRYPTED user_id=1 file_id=8b9ee506-5760-46b9-9806-af0dfad76501
+2026-08-23 22:12:15,351 INFO 127.0.0.1 - - [23/Aug/2026 22:12:15] "POST /encrypt HTTP/1.1" 200 -
+2026-08-23 22:12:27,557 INFO FILE_DECRYPTED user_id=1 file_id=8b9ee506-5760-46b9-9806-af0dfad76501
+2026-08-23 22:12:27,558 INFO 127.0.0.1 - - [23/Aug/2026 22:12:27] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:16:45,155 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 22:16:45,156 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 22:16:50,452 INFO 127.0.0.1 - - [23/Aug/2026 22:16:50] "GET / HTTP/1.1" 200 -
+2026-08-23 22:16:52,215 INFO 127.0.0.1 - - [23/Aug/2026 22:16:52] "GET / HTTP/1.1" 200 -
+2026-08-23 22:17:22,029 INFO FILE_DECRYPTED user_id=1 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 22:17:22,066 INFO 127.0.0.1 - - [23/Aug/2026 22:17:22] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:17:36,451 INFO 127.0.0.1 - - [23/Aug/2026 22:17:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 22:17:36,498 INFO 127.0.0.1 - - [23/Aug/2026 22:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:17:52,441 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 22:17:52,442 INFO 127.0.0.1 - - [23/Aug/2026 22:17:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 22:17:52,447 INFO 127.0.0.1 - - [23/Aug/2026 22:17:52] "GET / HTTP/1.1" 200 -
+2026-08-23 22:18:03,479 INFO FILE_DECRYPTED user_id=1 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 22:18:03,481 INFO 127.0.0.1 - - [23/Aug/2026 22:18:03] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:39:27,579 INFO FILE_DECRYPTED user_id=1 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 22:39:27,582 INFO 127.0.0.1 - - [23/Aug/2026 22:39:27] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:39:47,254 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 22:39:47,256 INFO 127.0.0.1 - - [23/Aug/2026 22:39:47] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 22:40:12,328 INFO FILE_DECRYPTED user_id=1 file_id=7167675e-08f0-4ae6-a497-b779fa9ec412
+2026-08-23 22:40:12,329 INFO 127.0.0.1 - - [23/Aug/2026 22:40:12] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:44:53,171 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 22:44:53,172 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 22:44:57,950 INFO 127.0.0.1 - - [23/Aug/2026 22:44:57] "GET / HTTP/1.1" 200 -
+2026-08-23 22:45:00,479 INFO 127.0.0.1 - - [23/Aug/2026 22:45:00] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 22:45:00,492 INFO 127.0.0.1 - - [23/Aug/2026 22:45:00] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:45:01,584 INFO 127.0.0.1 - - [23/Aug/2026 22:45:01] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:45:18,971 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 22:45:18,972 INFO 127.0.0.1 - - [23/Aug/2026 22:45:18] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 22:45:18,977 INFO 127.0.0.1 - - [23/Aug/2026 22:45:18] "GET / HTTP/1.1" 200 -
+2026-08-23 22:45:48,410 INFO FILE_ENCRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 22:45:48,446 INFO 127.0.0.1 - - [23/Aug/2026 22:45:48] "POST /encrypt HTTP/1.1" 200 -
+2026-08-23 22:52:19,882 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 22:52:19,882 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 22:52:29,220 INFO 127.0.0.1 - - [23/Aug/2026 22:52:29] "GET / HTTP/1.1" 200 -
+2026-08-23 22:52:30,988 INFO 127.0.0.1 - - [23/Aug/2026 22:52:30] "GET / HTTP/1.1" 200 -
+2026-08-23 22:53:03,651 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 22:53:03,680 INFO 127.0.0.1 - - [23/Aug/2026 22:53:03] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 22:53:36,282 INFO 127.0.0.1 - - [23/Aug/2026 22:53:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 22:53:36,322 INFO 127.0.0.1 - - [23/Aug/2026 22:53:36] "GET /login HTTP/1.1" 200 -
+2026-08-23 22:53:50,732 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 22:53:50,733 INFO 127.0.0.1 - - [23/Aug/2026 22:53:50] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 22:53:50,738 INFO 127.0.0.1 - - [23/Aug/2026 22:53:50] "GET / HTTP/1.1" 200 -
+2026-08-23 22:53:59,435 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 22:53:59,439 INFO 127.0.0.1 - - [23/Aug/2026 22:53:59] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 23:00:06,673 INFO 127.0.0.1 - - [23/Aug/2026 23:00:06] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:00:06,702 INFO 127.0.0.1 - - [23/Aug/2026 23:00:06] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:00:21,737 INFO LOGIN_SUCCESS user_id=2
+2026-08-23 23:00:21,738 INFO 127.0.0.1 - - [23/Aug/2026 23:00:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:00:21,745 INFO 127.0.0.1 - - [23/Aug/2026 23:00:21] "GET / HTTP/1.1" 200 -
+2026-08-23 23:00:29,746 WARNING ACCESS_DENIED user_id=2 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 23:00:29,747 INFO 127.0.0.1 - - [23/Aug/2026 23:00:29] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:00:49,696 INFO 127.0.0.1 - - [23/Aug/2026 23:00:49] "GET / HTTP/1.1" 200 -
+2026-08-23 23:00:54,476 INFO 127.0.0.1 - - [23/Aug/2026 23:00:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:00:54,491 INFO 127.0.0.1 - - [23/Aug/2026 23:00:54] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:01:17,354 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 23:01:17,354 INFO 127.0.0.1 - - [23/Aug/2026 23:01:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:01:17,359 INFO 127.0.0.1 - - [23/Aug/2026 23:01:17] "GET / HTTP/1.1" 200 -
+2026-08-23 23:01:26,233 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 23:01:26,236 INFO 127.0.0.1 - - [23/Aug/2026 23:01:26] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 23:02:24,963 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 23:02:24,967 INFO 127.0.0.1 - - [23/Aug/2026 23:02:24] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 23:03:20,041 INFO 127.0.0.1 - - [23/Aug/2026 23:03:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:03:20,064 INFO 127.0.0.1 - - [23/Aug/2026 23:03:20] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:03:53,553 INFO LOGIN_SUCCESS user_id=2
+2026-08-23 23:03:53,554 INFO 127.0.0.1 - - [23/Aug/2026 23:03:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:03:53,560 INFO 127.0.0.1 - - [23/Aug/2026 23:03:53] "GET / HTTP/1.1" 200 -
+2026-08-23 23:04:06,815 WARNING ACCESS_DENIED user_id=2 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 23:04:06,817 INFO 127.0.0.1 - - [23/Aug/2026 23:04:06] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:14:13,323 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 23:14:13,323 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 23:14:22,094 INFO 127.0.0.1 - - [23/Aug/2026 23:14:22] "GET / HTTP/1.1" 200 -
+2026-08-23 23:14:23,378 INFO 127.0.0.1 - - [23/Aug/2026 23:14:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:14:23,417 INFO 127.0.0.1 - - [23/Aug/2026 23:14:23] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:14:39,609 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 23:14:39,610 INFO 127.0.0.1 - - [23/Aug/2026 23:14:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:14:39,615 INFO 127.0.0.1 - - [23/Aug/2026 23:14:39] "GET / HTTP/1.1" 200 -
+2026-08-23 23:18:27,497 INFO 127.0.0.1 - - [23/Aug/2026 23:18:27] "GET / HTTP/1.1" 200 -
+2026-08-23 23:18:28,718 INFO 127.0.0.1 - - [23/Aug/2026 23:18:28] "GET / HTTP/1.1" 200 -
+2026-08-23 23:18:46,391 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:18:46,393 INFO 127.0.0.1 - - [23/Aug/2026 23:18:46] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:32:17,385 INFO 127.0.0.1 - - [23/Aug/2026 23:32:17] "GET / HTTP/1.1" 200 -
+2026-08-23 23:32:18,612 INFO 127.0.0.1 - - [23/Aug/2026 23:32:18] "GET / HTTP/1.1" 200 -
+2026-08-23 23:32:38,683 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-23 23:32:38,719 INFO 127.0.0.1 - - [23/Aug/2026 23:32:38] "POST /decrypt HTTP/1.1" 200 -
+2026-08-23 23:34:21,658 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:34:21,661 INFO 127.0.0.1 - - [23/Aug/2026 23:34:21] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:34:32,813 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:34:32,817 INFO 127.0.0.1 - - [23/Aug/2026 23:34:32] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:34:36,702 INFO 127.0.0.1 - - [23/Aug/2026 23:34:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:34:36,732 INFO 127.0.0.1 - - [23/Aug/2026 23:34:36] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:35:10,316 INFO 127.0.0.1 - - [23/Aug/2026 23:35:10] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:37:46,405 INFO 127.0.0.1 - - [23/Aug/2026 23:37:46] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:38:33,144 INFO 127.0.0.1 - - [23/Aug/2026 23:38:33] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:38:34,176 INFO 127.0.0.1 - - [23/Aug/2026 23:38:34] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:38:36,053 INFO 127.0.0.1 - - [23/Aug/2026 23:38:36] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:38:49,703 WARNING LOGIN_FAILED username=arun
+2026-08-23 23:38:49,704 INFO 127.0.0.1 - - [23/Aug/2026 23:38:49] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-08-23 23:39:01,267 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 23:39:01,268 INFO 127.0.0.1 - - [23/Aug/2026 23:39:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:39:01,275 INFO 127.0.0.1 - - [23/Aug/2026 23:39:01] "GET / HTTP/1.1" 200 -
+2026-08-23 23:39:23,460 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:39:23,463 INFO 127.0.0.1 - - [23/Aug/2026 23:39:23] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:40:33,720 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 23:40:33,720 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 23:40:37,203 INFO 127.0.0.1 - - [23/Aug/2026 23:40:37] "GET / HTTP/1.1" 200 -
+2026-08-23 23:40:38,302 INFO 127.0.0.1 - - [23/Aug/2026 23:40:38] "GET / HTTP/1.1" 200 -
+2026-08-23 23:40:39,449 INFO 127.0.0.1 - - [23/Aug/2026 23:40:39] "GET / HTTP/1.1" 200 -
+2026-08-23 23:40:55,732 WARNING KEY_NOT_FOUND user_id=1 file_id=test_tampered
+2026-08-23 23:40:55,735 INFO 127.0.0.1 - - [23/Aug/2026 23:40:55] "[33mPOST /decrypt HTTP/1.1[0m" 404 -
+2026-08-23 23:42:34,373 INFO 127.0.0.1 - - [23/Aug/2026 23:42:34] "GET / HTTP/1.1" 200 -
+2026-08-23 23:42:45,613 WARNING KEY_NOT_FOUND user_id=1 file_id=test_tampered
+2026-08-23 23:42:45,615 INFO 127.0.0.1 - - [23/Aug/2026 23:42:45] "[33mPOST /decrypt HTTP/1.1[0m" 404 -
+2026-08-23 23:42:52,419 WARNING KEY_NOT_FOUND user_id=1 file_id=test_tampered
+2026-08-23 23:42:52,420 INFO 127.0.0.1 - - [23/Aug/2026 23:42:52] "[33mPOST /decrypt HTTP/1.1[0m" 404 -
+2026-08-23 23:43:08,660 WARNING KEY_NOT_FOUND user_id=1 file_id=test_tampered
+2026-08-23 23:43:08,662 INFO 127.0.0.1 - - [23/Aug/2026 23:43:08] "[33mPOST /decrypt HTTP/1.1[0m" 404 -
+2026-08-23 23:43:14,275 WARNING KEY_NOT_FOUND user_id=1 file_id=test_tampered
+2026-08-23 23:43:14,277 INFO 127.0.0.1 - - [23/Aug/2026 23:43:14] "[33mPOST /decrypt HTTP/1.1[0m" 404 -
+2026-08-23 23:43:20,430 INFO 127.0.0.1 - - [23/Aug/2026 23:43:20] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:43:20,460 INFO 127.0.0.1 - - [23/Aug/2026 23:43:20] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:43:56,584 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 23:43:56,584 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 23:44:13,213 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 23:44:13,214 INFO 127.0.0.1 - - [23/Aug/2026 23:44:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:44:13,226 INFO 127.0.0.1 - - [23/Aug/2026 23:44:13] "GET / HTTP/1.1" 200 -
+2026-08-23 23:44:27,233 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:44:27,238 INFO 127.0.0.1 - - [23/Aug/2026 23:44:27] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:53:47,443 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 23:53:47,444 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 23:53:53,178 INFO 127.0.0.1 - - [23/Aug/2026 23:53:53] "GET / HTTP/1.1" 200 -
+2026-08-23 23:53:54,988 INFO 127.0.0.1 - - [23/Aug/2026 23:53:54] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-23 23:53:55,062 INFO 127.0.0.1 - - [23/Aug/2026 23:53:55] "GET /login HTTP/1.1" 200 -
+2026-08-23 23:54:06,981 INFO LOGIN_SUCCESS user_id=1
+2026-08-23 23:54:06,982 INFO 127.0.0.1 - - [23/Aug/2026 23:54:06] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-23 23:54:06,988 INFO 127.0.0.1 - - [23/Aug/2026 23:54:06] "GET / HTTP/1.1" 200 -
+2026-08-23 23:54:22,129 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:54:22,131 INFO 127.0.0.1 - - [23/Aug/2026 23:54:22] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:54:28,196 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:54:28,199 INFO 127.0.0.1 - - [23/Aug/2026 23:54:28] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:54:55,477 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:54:55,479 INFO 127.0.0.1 - - [23/Aug/2026 23:54:55] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:55:06,376 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:55:06,380 INFO 127.0.0.1 - - [23/Aug/2026 23:55:06] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:55:26,790 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-23 23:55:26,791 INFO [33mPress CTRL+C to quit[0m
+2026-08-23 23:55:29,837 INFO 127.0.0.1 - - [23/Aug/2026 23:55:29] "GET / HTTP/1.1" 200 -
+2026-08-23 23:55:39,557 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:55:39,560 INFO 127.0.0.1 - - [23/Aug/2026 23:55:39] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-23 23:55:58,930 INFO 127.0.0.1 - - [23/Aug/2026 23:55:58] "GET / HTTP/1.1" 200 -
+2026-08-23 23:56:12,399 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-23 23:56:12,401 INFO 127.0.0.1 - - [23/Aug/2026 23:56:12] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-24 00:04:27,583 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 00:04:27,584 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 00:04:31,575 INFO 127.0.0.1 - - [24/Aug/2026 00:04:31] "GET / HTTP/1.1" 200 -
+2026-08-24 00:04:32,606 INFO 127.0.0.1 - - [24/Aug/2026 00:04:32] "GET / HTTP/1.1" 200 -
+2026-08-24 00:04:33,481 INFO 127.0.0.1 - - [24/Aug/2026 00:04:33] "GET / HTTP/1.1" 200 -
+2026-08-24 00:04:34,487 INFO 127.0.0.1 - - [24/Aug/2026 00:04:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 00:04:34,528 INFO 127.0.0.1 - - [24/Aug/2026 00:04:34] "GET /login HTTP/1.1" 200 -
+2026-08-24 00:04:47,521 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 00:04:47,522 INFO 127.0.0.1 - - [24/Aug/2026 00:04:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 00:04:47,527 INFO 127.0.0.1 - - [24/Aug/2026 00:04:47] "GET / HTTP/1.1" 200 -
+2026-08-24 00:04:58,355 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-24 00:04:58,358 INFO 127.0.0.1 - - [24/Aug/2026 00:04:58] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-24 00:05:03,979 INFO 127.0.0.1 - - [24/Aug/2026 00:05:03] "GET / HTTP/1.1" 200 -
+2026-08-24 00:05:04,889 INFO 127.0.0.1 - - [24/Aug/2026 00:05:04] "GET / HTTP/1.1" 200 -
+2026-08-24 00:17:57,633 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 00:17:57,633 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 00:19:21,234 INFO 127.0.0.1 - - [24/Aug/2026 00:19:21] "GET / HTTP/1.1" 200 -
+2026-08-24 00:19:23,298 INFO 127.0.0.1 - - [24/Aug/2026 00:19:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 00:19:23,318 INFO 127.0.0.1 - - [24/Aug/2026 00:19:23] "GET /login HTTP/1.1" 200 -
+2026-08-24 00:19:27,287 INFO 127.0.0.1 - - [24/Aug/2026 00:19:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 00:19:27,317 INFO 127.0.0.1 - - [24/Aug/2026 00:19:27] "GET /login HTTP/1.1" 200 -
+2026-08-24 00:19:30,192 INFO 127.0.0.1 - - [24/Aug/2026 00:19:30] "GET /login HTTP/1.1" 200 -
+2026-08-24 00:19:57,912 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 00:19:57,913 INFO 127.0.0.1 - - [24/Aug/2026 00:19:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 00:19:57,919 INFO 127.0.0.1 - - [24/Aug/2026 00:19:57] "GET / HTTP/1.1" 200 -
+2026-08-24 00:20:37,560 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 00:20:37,594 INFO 127.0.0.1 - - [24/Aug/2026 00:20:37] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 00:20:53,235 INFO 127.0.0.1 - - [24/Aug/2026 00:20:53] "GET / HTTP/1.1" 200 -
+2026-08-24 00:21:13,777 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-24 00:21:13,779 INFO 127.0.0.1 - - [24/Aug/2026 00:21:13] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-24 00:21:57,047 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 00:21:57,051 INFO 127.0.0.1 - - [24/Aug/2026 00:21:57] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 00:32:44,498 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 00:32:44,499 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 00:32:53,262 INFO 127.0.0.1 - - [24/Aug/2026 00:32:53] "GET / HTTP/1.1" 200 -
+2026-08-24 00:32:54,163 INFO 127.0.0.1 - - [24/Aug/2026 00:32:54] "GET / HTTP/1.1" 200 -
+2026-08-24 00:32:54,357 INFO 127.0.0.1 - - [24/Aug/2026 00:32:54] "GET / HTTP/1.1" 200 -
+2026-08-24 00:32:54,525 INFO 127.0.0.1 - - [24/Aug/2026 00:32:54] "GET / HTTP/1.1" 200 -
+2026-08-24 00:32:54,752 INFO 127.0.0.1 - - [24/Aug/2026 00:32:54] "GET / HTTP/1.1" 200 -
+2026-08-24 00:32:55,645 INFO 127.0.0.1 - - [24/Aug/2026 00:32:55] "GET / HTTP/1.1" 200 -
+2026-08-24 00:33:35,699 INFO DECRYPT_UPLOAD path=/tmp/tmp9caqwqcj/49e4a85c-9e61-403d-be54-1ccf4078b6d2.enc size=74
+2026-08-24 00:33:35,736 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 00:33:35,775 INFO 127.0.0.1 - - [24/Aug/2026 00:33:35] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 00:41:07,910 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 00:41:07,912 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 00:42:45,983 INFO 127.0.0.1 - - [24/Aug/2026 00:42:45] "GET / HTTP/1.1" 200 -
+2026-08-24 00:43:16,675 INFO DECRYPT_UPLOAD path=/tmp/tmpmfwarmvt/49e4a85c-9e61-403d-be54-1ccf4078b6d2.enc size=74 sha256=984b1bfa03c4249349e3fd4e72fce55030ff5f948b8961a34b71780686535d5c
+2026-08-24 00:43:16,743 INFO FILE_DECRYPTED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 00:43:16,778 INFO 127.0.0.1 - - [24/Aug/2026 00:43:16] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 00:48:08,319 INFO 127.0.0.1 - - [24/Aug/2026 00:48:08] "GET / HTTP/1.1" 200 -
+2026-08-24 00:48:20,002 INFO 127.0.0.1 - - [24/Aug/2026 00:48:20] "GET / HTTP/1.1" 200 -
+2026-08-24 00:48:21,009 INFO 127.0.0.1 - - [24/Aug/2026 00:48:21] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 00:48:21,050 INFO 127.0.0.1 - - [24/Aug/2026 00:48:21] "GET /login HTTP/1.1" 200 -
+2026-08-24 00:48:30,975 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 00:48:30,977 INFO 127.0.0.1 - - [24/Aug/2026 00:48:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 00:48:30,982 INFO 127.0.0.1 - - [24/Aug/2026 00:48:30] "GET / HTTP/1.1" 200 -
+2026-08-24 00:49:13,773 INFO DECRYPT_UPLOAD path=/tmp/tmpzm6wwkcb/49e4a85c-9e61-403d-be54-1ccf4078b6d2.enc size=74 sha256=35ded102b1a6a96b24a8bca4f5c5b1b4c46653904843a2a86a354e7de4aad3a2
+2026-08-24 00:49:13,817 WARNING DECRYPTION_FAILED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 00:49:13,820 INFO 127.0.0.1 - - [24/Aug/2026 00:49:13] "[31m[1mPOST /decrypt HTTP/1.1[0m" 400 -
+2026-08-24 00:58:28,672 INFO The CSRF token is missing.
+2026-08-24 00:58:28,680 INFO 127.0.0.1 - - [24/Aug/2026 00:58:28] "[31m[1mPOST /decrypt HTTP/1.1[0m" 400 -
+2026-08-24 00:58:34,769 INFO The CSRF token is missing.
+2026-08-24 00:58:34,770 INFO 127.0.0.1 - - [24/Aug/2026 00:58:34] "[31m[1mPOST /decrypt HTTP/1.1[0m" 400 -
+2026-08-24 00:58:54,375 WARNING ACCESS_DENIED user_id=1 file_id=test_tampered
+2026-08-24 00:58:54,377 INFO 127.0.0.1 - - [24/Aug/2026 00:58:54] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-24 00:59:31,333 INFO 127.0.0.1 - - [24/Aug/2026 00:59:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 00:59:31,362 INFO 127.0.0.1 - - [24/Aug/2026 00:59:31] "GET /login HTTP/1.1" 200 -
+2026-08-24 11:00:16,248 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 11:00:16,250 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 11:00:46,448 INFO 127.0.0.1 - - [24/Aug/2026 11:00:46] "[32mGET / HTTP/1.1[0m" 302 -
+2026-08-24 11:00:46,557 INFO 127.0.0.1 - - [24/Aug/2026 11:00:46] "GET /login HTTP/1.1" 200 -
+2026-08-24 11:01:01,912 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 11:01:01,914 INFO 127.0.0.1 - - [24/Aug/2026 11:01:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 11:01:02,243 INFO 127.0.0.1 - - [24/Aug/2026 11:01:02] "GET / HTTP/1.1" 200 -
+2026-08-24 11:01:34,252 INFO 127.0.0.1 - - [24/Aug/2026 11:01:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 11:01:34,273 INFO 127.0.0.1 - - [24/Aug/2026 11:01:34] "GET /login HTTP/1.1" 200 -
+2026-08-24 11:02:33,458 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 11:02:33,459 INFO 127.0.0.1 - - [24/Aug/2026 11:02:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 11:02:33,466 INFO 127.0.0.1 - - [24/Aug/2026 11:02:33] "GET / HTTP/1.1" 200 -
+2026-08-24 11:02:43,648 INFO FILE_ENCRYPTED user_id=1 file_id=c14f5a7b-e852-4c2d-adec-135a393b6b20
+2026-08-24 11:02:43,765 INFO 127.0.0.1 - - [24/Aug/2026 11:02:43] "POST /encrypt HTTP/1.1" 200 -
+2026-08-24 11:03:15,701 INFO FILE_DECRYPTED user_id=1 file_id=c14f5a7b-e852-4c2d-adec-135a393b6b20
+2026-08-24 11:03:15,703 INFO 127.0.0.1 - - [24/Aug/2026 11:03:15] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 11:19:38,973 INFO 127.0.0.1 - - [24/Aug/2026 11:19:38] "GET / HTTP/1.1" 200 -
+2026-08-24 11:19:54,173 WARNING DECRYPTION_FAILED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 11:19:54,180 INFO 127.0.0.1 - - [24/Aug/2026 11:19:54] "[31m[1mPOST /decrypt HTTP/1.1[0m" 400 -
+2026-08-24 11:45:44,010 INFO 127.0.0.1 - - [24/Aug/2026 11:45:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 11:45:44,046 INFO 127.0.0.1 - - [24/Aug/2026 11:45:44] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:16:35,493 INFO 127.0.0.1 - - [24/Aug/2026 13:16:35] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:16:37,133 INFO 127.0.0.1 - - [24/Aug/2026 13:16:37] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:28,871 INFO 127.0.0.1 - - [24/Aug/2026 13:17:28] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:29,967 INFO 127.0.0.1 - - [24/Aug/2026 13:17:29] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:30,429 INFO 127.0.0.1 - - [24/Aug/2026 13:17:30] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:30,604 INFO 127.0.0.1 - - [24/Aug/2026 13:17:30] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:30,777 INFO 127.0.0.1 - - [24/Aug/2026 13:17:30] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:30,997 INFO 127.0.0.1 - - [24/Aug/2026 13:17:30] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:31,745 INFO 127.0.0.1 - - [24/Aug/2026 13:17:31] "[32mGET / HTTP/1.1[0m" 302 -
+2026-08-24 13:17:35,951 INFO 127.0.0.1 - - [24/Aug/2026 13:17:35] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:36,083 INFO 127.0.0.1 - - [24/Aug/2026 13:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:36,314 INFO 127.0.0.1 - - [24/Aug/2026 13:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:36,449 INFO 127.0.0.1 - - [24/Aug/2026 13:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:36,694 INFO 127.0.0.1 - - [24/Aug/2026 13:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:36,806 INFO 127.0.0.1 - - [24/Aug/2026 13:17:36] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:37,032 INFO 127.0.0.1 - - [24/Aug/2026 13:17:37] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:37,166 INFO 127.0.0.1 - - [24/Aug/2026 13:17:37] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:37,398 INFO 127.0.0.1 - - [24/Aug/2026 13:17:37] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:39,974 INFO 127.0.0.1 - - [24/Aug/2026 13:17:39] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:17:43,926 INFO 127.0.0.1 - - [24/Aug/2026 13:17:43] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:37,400 INFO 127.0.0.1 - - [24/Aug/2026 13:18:37] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:38,264 INFO 127.0.0.1 - - [24/Aug/2026 13:18:38] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:38,404 INFO 127.0.0.1 - - [24/Aug/2026 13:18:38] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:40,491 INFO 127.0.0.1 - - [24/Aug/2026 13:18:40] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:40,634 INFO 127.0.0.1 - - [24/Aug/2026 13:18:40] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:40,873 INFO 127.0.0.1 - - [24/Aug/2026 13:18:40] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:40,984 INFO 127.0.0.1 - - [24/Aug/2026 13:18:40] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:18:54,781 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 13:18:54,782 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 13:19:03,524 INFO 127.0.0.1 - - [24/Aug/2026 13:19:03] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:04,540 INFO 127.0.0.1 - - [24/Aug/2026 13:19:04] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:04,705 INFO 127.0.0.1 - - [24/Aug/2026 13:19:04] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:04,965 INFO 127.0.0.1 - - [24/Aug/2026 13:19:04] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:05,073 INFO 127.0.0.1 - - [24/Aug/2026 13:19:05] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:05,294 INFO 127.0.0.1 - - [24/Aug/2026 13:19:05] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:19:13,901 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:19:13,903 INFO 127.0.0.1 - - [24/Aug/2026 13:19:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:19:13,909 INFO 127.0.0.1 - - [24/Aug/2026 13:19:13] "GET / HTTP/1.1" 200 -
+2026-08-24 13:19:31,800 INFO 127.0.0.1 - - [24/Aug/2026 13:19:31] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 13:19:31,820 INFO 127.0.0.1 - - [24/Aug/2026 13:19:31] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:20:08,640 INFO 127.0.0.1 - - [24/Aug/2026 13:20:08] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:20:09,846 INFO 127.0.0.1 - - [24/Aug/2026 13:20:09] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:20:28,500 INFO 127.0.0.1 - - [24/Aug/2026 13:20:28] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:20:41,685 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 13:20:41,685 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 13:20:44,833 INFO 127.0.0.1 - - [24/Aug/2026 13:20:44] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:21:00,991 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:21:00,992 INFO 127.0.0.1 - - [24/Aug/2026 13:21:00] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:21:00,999 INFO 127.0.0.1 - - [24/Aug/2026 13:21:00] "GET / HTTP/1.1" 200 -
+2026-08-24 13:21:08,336 INFO 127.0.0.1 - - [24/Aug/2026 13:21:08] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 13:21:08,362 INFO 127.0.0.1 - - [24/Aug/2026 13:21:08] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:23:05,971 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 13:23:05,971 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 13:23:11,228 INFO 127.0.0.1 - - [24/Aug/2026 13:23:11] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:23:20,444 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:23:20,445 INFO 127.0.0.1 - - [24/Aug/2026 13:23:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:23:20,452 INFO 127.0.0.1 - - [24/Aug/2026 13:23:20] "GET / HTTP/1.1" 200 -
+2026-08-24 13:24:09,309 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 13:24:09,310 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 13:24:14,195 INFO 127.0.0.1 - - [24/Aug/2026 13:24:14] "GET / HTTP/1.1" 200 -
+2026-08-24 13:25:32,789 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-08-24 13:25:32,789 INFO [33mPress CTRL+C to quit[0m
+2026-08-24 13:25:38,241 INFO 127.0.0.1 - - [24/Aug/2026 13:25:38] "GET / HTTP/1.1" 200 -
+2026-08-24 13:26:03,000 INFO 127.0.0.1 - - [24/Aug/2026 13:26:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 13:26:03,035 INFO 127.0.0.1 - - [24/Aug/2026 13:26:03] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:27:43,065 INFO 127.0.0.1 - - [24/Aug/2026 13:27:43] "GET /register HTTP/1.1" 200 -
+2026-08-24 13:27:54,244 INFO 127.0.0.1 - - [24/Aug/2026 13:27:54] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:28:04,303 WARNING LOGIN_FAILED username=arun
+2026-08-24 13:28:04,304 INFO 127.0.0.1 - - [24/Aug/2026 13:28:04] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-08-24 13:28:13,774 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:28:13,776 INFO 127.0.0.1 - - [24/Aug/2026 13:28:13] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:28:13,784 INFO 127.0.0.1 - - [24/Aug/2026 13:28:13] "GET / HTTP/1.1" 200 -
+2026-08-24 13:29:51,334 INFO FILE_ENCRYPTED user_id=1 file_id=3842477e-4e88-471e-935a-3c1cc550fe80
+2026-08-24 13:29:51,382 INFO 127.0.0.1 - - [24/Aug/2026 13:29:51] "POST /encrypt HTTP/1.1" 200 -
+2026-08-24 13:31:42,506 INFO FILE_DECRYPTED user_id=1 file_id=3842477e-4e88-471e-935a-3c1cc550fe80
+2026-08-24 13:31:42,512 INFO 127.0.0.1 - - [24/Aug/2026 13:31:42] "POST /decrypt HTTP/1.1" 200 -
+2026-08-24 13:33:25,239 INFO 127.0.0.1 - - [24/Aug/2026 13:33:25] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 13:33:25,269 INFO 127.0.0.1 - - [24/Aug/2026 13:33:25] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:34:09,068 INFO LOGIN_SUCCESS user_id=2
+2026-08-24 13:34:09,069 INFO 127.0.0.1 - - [24/Aug/2026 13:34:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:34:09,077 INFO 127.0.0.1 - - [24/Aug/2026 13:34:09] "GET / HTTP/1.1" 200 -
+2026-08-24 13:34:59,146 WARNING ACCESS_DENIED user_id=2 file_id=3842477e-4e88-471e-935a-3c1cc550fe80
+2026-08-24 13:34:59,148 INFO 127.0.0.1 - - [24/Aug/2026 13:34:59] "[31m[1mPOST /decrypt HTTP/1.1[0m" 403 -
+2026-08-24 13:39:41,563 INFO 127.0.0.1 - - [24/Aug/2026 13:39:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-08-24 13:39:41,599 INFO 127.0.0.1 - - [24/Aug/2026 13:39:41] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:39:54,921 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:39:54,922 INFO 127.0.0.1 - - [24/Aug/2026 13:39:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:39:54,928 INFO 127.0.0.1 - - [24/Aug/2026 13:39:54] "GET / HTTP/1.1" 200 -
+2026-08-24 13:40:12,563 WARNING DECRYPTION_FAILED user_id=1 file_id=49e4a85c-9e61-403d-be54-1ccf4078b6d2
+2026-08-24 13:40:12,566 INFO 127.0.0.1 - - [24/Aug/2026 13:40:12] "[31m[1mPOST /decrypt HTTP/1.1[0m" 400 -
+2026-08-24 13:42:06,540 INFO 127.0.0.1 - - [24/Aug/2026 13:42:06] "GET / HTTP/1.1" 200 -
+2026-08-24 13:42:15,648 INFO 127.0.0.1 - - [24/Aug/2026 13:42:15] "GET / HTTP/1.1" 200 -
+2026-08-24 13:43:17,375 INFO The CSRF token is missing.
+2026-08-24 13:43:17,376 INFO 127.0.0.1 - - [24/Aug/2026 13:43:17] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2026-08-24 13:43:43,494 INFO The CSRF token is missing.
+2026-08-24 13:43:43,495 INFO 127.0.0.1 - - [24/Aug/2026 13:43:43] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2026-08-24 13:43:48,103 INFO 127.0.0.1 - - [24/Aug/2026 13:43:48] "GET /login HTTP/1.1" 200 -
+2026-08-24 13:44:03,828 INFO LOGIN_SUCCESS user_id=1
+2026-08-24 13:44:03,830 INFO 127.0.0.1 - - [24/Aug/2026 13:44:03] "[32mPOST /login HTTP/1.1[0m" 302 -
+2026-08-24 13:44:03,860 INFO 127.0.0.1 - - [24/Aug/2026 13:44:03] "GET / HTTP/1.1" 200 -

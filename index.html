@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure File Encryption Portal</title>
+</head>
+
+<body>
+
+    <h1>Secure File Encryption Portal</h1>
+
+    <p>Welcome, <strong>{{ username }}</strong></p>
+
+    <p>
+        <a href="/logout">Logout</a>
+    </p>
+
+    <hr>
+
+    <h2>Encrypt File</h2>
+
+    <form action="/encrypt" method="POST" enctype="multipart/form-data">
+         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+        <input type="file" name="file" required>
+
+        <button type="submit">
+            Encrypt File
+        </button>
+
+    </form>
+
+    <hr>
+
+    <h2>Decrypt File</h2>
+
+    <form action="/decrypt" method="POST" enctype="multipart/form-data">
+         <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+
+        <input type="file" name="file" required>
+
+        <button type="submit">
+            Decrypt File
+        </button>
+
+    </form>
+
+    <hr>
+</body>
+<style>
+  body {
+    text-align: center;        /* Centers all text and inline items */
+  }
+</style>
+</html>
+
